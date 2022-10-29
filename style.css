@@ -23,6 +23,14 @@ nav li{
     margin: auto;
 }
 
+nav{
+    background: white;
+    position: sticky;
+    top: 0em;
+    border-top: solid 1px #777;
+    border-bottom: solid 1px #777;
+}
+
 a:link{
     text-decoration: none;
 }
@@ -44,8 +52,7 @@ h5{
     color: #dd3232;
 }
 
-nav{
-    border-top: solid 1px #777;
+main{
     border-bottom: solid 1px #777;
 }
 
@@ -58,4 +65,13 @@ nav{
 img{
     width: 100%;
     height: auto;
+}
+
+.footer li{
+    display: inline-block;
+    padding:5px;
+    color: #777;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
 }
